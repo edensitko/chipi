@@ -49,13 +49,11 @@ Flutter - מסגרת פיתוח UI מרובת פלטפורמות
 Provider - לניהול מצב האפליקציה
 Shared Preferences - לאחסון נתוני משתמש מקומי
 Google ML Kit - לזיהוי שפה
-OpenAI API - להנחיית ChatGPT
-📃 רישיון
-הפרויקט מופץ תחת רישיון MIT. קראו את הקובץ LICENSE לפרטים נוספים.
 
-Chipi הוא הרבה יותר מצ'אטבוט - הוא כלי ללמידה ולחקירה של עולם התקשורת לילדים בשפה נגישה ומלאת ביטחון. אנו מזמינים אתכם להוריד את הקוד, לשחק, ללמוד ולשפר אותו בעצמכם!
 
-בהצלחה עם הפרויקט! 🚀
+
+
+
 
 
 
