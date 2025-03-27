@@ -7,7 +7,7 @@ import 'package:chipi/models/models_model.dart';
 import 'package:chipi/providers/userprovider.dart';
 import 'package:shared_preferences/shared_preferences.dart'; // Import SharedPreferences
 import 'package:http/http.dart' as http;
-import 'package:google_mlkit_language_id/google_mlkit_language_id.dart' as google_mlkit;
+// import 'package:google_mlkit_language_id/google_mlkit_language_id.dart' as google_mlkit;
 
 class ApiService {
   // Function to retrieve the user's name from SharedPreferences
@@ -112,10 +112,12 @@ class ApiService {
 
   // Function to detect language
   Future<bool> isHebrew(String text) async {
-    final languageId = google_mlkit.LanguageIdentifier(confidenceThreshold: 0.5);
-    final languageTag = await languageId.identifyLanguage(text);
-    print("Language detected: $languageTag");
-    return languageTag == 'he';
+    // Temporarily returning true since we've commented out Google ML Kit
+    // final languageId = google_mlkit.LanguageIdentifier(confidenceThreshold: 0.5);
+    // final languageTag = await languageId.identifyLanguage(text);
+    // print("Language detected: $languageTag");
+    // return languageTag == 'he';
+    return true;
   }
 
   // Function to fetch response from OpenAI API with a customized prompt
